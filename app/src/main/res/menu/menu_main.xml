@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.takeeat.android.MainActivity">
+    <item
+        android:id="@+id/insert"
+        android:title="추가"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/delete"
+        android:title="삭제"
+        app:showAsAction="always"/>
+</menu>
