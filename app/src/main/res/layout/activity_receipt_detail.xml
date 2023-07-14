@@ -70,7 +70,8 @@
                     app:layout_constraintEnd_toStartOf="@+id/img_main"
                     app:layout_constraintBottom_toBottomOf="@+id/img_main"
                     android:orientation="horizontal"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/recycle_ingredient_horizontal_mini"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -118,7 +119,8 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txt_ingredient"
                     android:layout_marginTop="30dp"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/recycle_reciept_order"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -158,7 +160,8 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginTop="40dp"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/recycle_shop"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
